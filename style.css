@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, sans-serif;
+    animation: gradient 5s ease infinite; 
+    margin: 0;
+    padding: 20px;
+    color: #333;
+}
+
+
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+input[type="text"],
+textarea {
+    width: 100%;
+    padding: 3px;
+    margin: 4px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="file"] {
+    margin: 10px 0;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white; /* Cor do texto */
+    border: none; /* Remove a borda */
+    padding: 10px 20px; /* Espaçamento interno */
+    text-align: center; /* Alinha o texto no centro */
+    text-decoration: none; /* Remove o sublinhado */
+    display: inline-block; /* Permite o botão ser tratado como um bloco */
+    font-size: 16px; /* Tamanho da fonte */
+    cursor: pointer; /* Muda o cursor para pointer ao passar o mouse */
+    border-radius: 12px; /* Arredonda os cantos */
+    transition: background-color 0.3s; /* Efeito de transição para a cor de fundo */
+    
+}
+
+button:hover {
+    background-color: #ccc; /* Cor de fundo */
+     color:white; /* Cor do texto */
+    border: none; /* Remove a borda */
+    padding: 10px 20px; /* Espaçamento interno */
+    text-align: center; /* Alinha o texto no centro */
+    text-decoration: none; /* Remove o sublinhado */
+    display: inline-block; /* Permite o botão ser tratado como um bloco */
+    font-size: 16px; /* Tamanho da fonte */
+    cursor: pointer; /* Muda o cursor para pointer ao passar o mouse */
+    border-radius: 12px; /* Arredonda os cantos */
+    transition: background-color 0.3s; /* Efeito de transição para a cor de fundo */
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.post {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px;
+    width: calc(33% - 20px);
+    background: #fafafa;
+}
+
+.post img, .post video {
+    max-width: 100%;
+    border-radius: 4px;
+}
+
+@keyframes gradient {
+    0% {
+        background-color: #7c98bd;
+    }
+    50% {
+        background-color: #609cd8;
+    }
+    100% {
+        background-color: #5787b8;
+    }
+}
+
